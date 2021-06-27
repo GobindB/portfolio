@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./express-server
+      dockerfile: ./Dockerfile
+    image: "gbakhshi/personal-page-backend"
+    ports:
+      - "3030:3030"
+  frontend:
+    build:
+      context: ./frontend-client
+      dockerfile: ./Dockerfile
+    image: "gbakhshi/personal-page-frontend"
+    ports:
+      - "3000:3000"
+    links:
+      - "backend:be"
