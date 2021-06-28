@@ -30,5 +30,9 @@ app.get('/favicon.ico', (req, res) => {
     res.send('');
 })
 
+app.get('/', (req, res) => {
+    res.send('Hello World');
+})
+
 app.listen(activePort);
 console.log('Server started on port ', activePort);
