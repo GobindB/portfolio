@@ -10,3 +10,11 @@
 - figma wireframes 
 - add server flow diagrams, tech specs and elastic registry for blog aspect
 - add redis cache for session info storage
+
+## Development environment
+
+Simply cd to the root directory and run
+
+```
+docker compose up -d
+```
