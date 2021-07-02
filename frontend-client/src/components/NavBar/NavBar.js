@@ -4,12 +4,13 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 
 const NavBar = () => {
+    const text = fetch("http://localhost:3030")
     return(
         <div>
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="title" color="inherit">
-                Gobinds page of wonders
+                {text}
                 </Typography>
             </Toolbar>
         </AppBar>
