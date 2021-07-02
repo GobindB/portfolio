@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/GobindB/portfolio.svg?branch=main)](https://travis-ci.org/GobindB/portfolio)
+[![Build Status](https://travis-ci.com/GobindB/portfolio.svg?branch=main)](https://travis-ci.com/GobindB/portfolio)
 
 # Portfolio page, blog, and home to random tech I feel like building? Stay tuned
 
