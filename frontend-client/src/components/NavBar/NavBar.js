@@ -4,7 +4,12 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 
 const NavBar = () => {
-    const text = fetch("http://localhost:3030")
+    
+    let text;
+    
+    fetch("http://localhost:3030")
+    .then(response => text = response.text)
+    
     return(
         <div>
         <AppBar position="static">
