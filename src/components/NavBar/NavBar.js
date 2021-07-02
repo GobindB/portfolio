@@ -5,17 +5,12 @@ import Typography from '@material-ui/core/Typography'
 
 const NavBar = () => {
     
-    let text;
-    
-    fetch("http://nodeserver:3030")
-    .then(response => text = response.text)
-    
     return(
         <div>
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="title" color="inherit">
-                {text}
+                Hello World!
                 </Typography>
             </Toolbar>
         </AppBar>
