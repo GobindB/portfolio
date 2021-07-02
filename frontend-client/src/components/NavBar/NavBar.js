@@ -7,7 +7,7 @@ const NavBar = () => {
     
     let text;
     
-    fetch("http://localhost:3030")
+    fetch("http://nodeserver:3030")
     .then(response => text = response.text)
     
     return(
